@@ -14,7 +14,7 @@ The editor can be installed for operating systems like MacOs or Windows.
 This is how your VScode interface should look like on MAC when you first install it.
 
 ## Remotely connecting
-In this section we will use the vscode terminal to connect a remote computer over the internet and work on there using your course specific account.\
+In this section we will use the vscode terminal to connect a remote computer over the internet and work on there using your course specific account.
 1. First we need to install git (if on windows) as it comes with useful tools we need.
 2. Next open a new terminal on vscode and enter the command: **$ ssh cs15lwi23zz@ieng6.ucsd.edu**.\replace zz with letters in your course specific account
 3. If you are connecting to the server for the first time, you will get the message:
