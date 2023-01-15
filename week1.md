@@ -1,4 +1,4 @@
-# CSE 15L WEEK 1 LAB REPORT
+# WEEK 1 LAB REPORT - SHLOK DAMANI A17373189
 ## In the following few sections we will learn how to:
 1. install vscode
 2. sign-in to your course specific ieng6 account and remotely connecting
