@@ -9,7 +9,7 @@ So let's begin
 For this course we will use VScode as our text editor.\
 First go to the [Visual Studio code website](https://code.visualstudio.com/) and follow the instructions on installing vscode.\
 The editor can be installed for operating systems like MacOs or Windows.
-[![Screen-Shot-2023-01-12-at-11-11-23-AM.png](https://i.postimg.cc/yNd23CjP/Screen-Shot-2023-01-12-at-11-11-23-AM.png)](https://postimg.cc/jDpMB9Gw)\
+[![Screen-Shot-2023-01-12-at-11-11-23-AM.png](https://i.postimg.cc/pLV63MwH/Screen-Shot-2023-01-12-at-11-11-23-AM.png)](https://postimg.cc/WhK8JCpW)\
 This is how your VScode interface should look like on MAC when you first install it.
 VScode is the recommended IDE because it is convenient and student-friendly.
 
