@@ -1,8 +1,8 @@
 # CSE 15L WEEK 1 LAB REPORT
 ## In the following few sections we will learn how to:
-1)install vscode
-2)sign-in to your course specific ieng6 account and remotely connecting
-3)Trying and having fun with some commands.
+1. install vscode
+2. sign-in to your course specific ieng6 account and remotely connecting
+3. Trying and having fun with some commands.
 So let's begin
 
 ## Installing Vscode
