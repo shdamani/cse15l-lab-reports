@@ -11,7 +11,7 @@ For this course we will use VScode as our text editor.\
 First go to the [Visual Studio code website](https://code.visualstudio.com/) and follow the instructions on installing vscode.\
 The editor can be installed for operating systems like MacOs or Windows.
 [![Screen-Shot-2023-01-12-at-11-11-23-AM.png](https://i.postimg.cc/pLV63MwH/Screen-Shot-2023-01-12-at-11-11-23-AM.png)](https://postimg.cc/WhK8JCpW)\
-This is how your VScode interface should look like on MAC when you first install it.\
+This is how your VScode interface should look like on MAC when you first install it.
 
 ## Remotely connecting
 In this section we will use the vscode terminal to connect a remote computer over the internet and work on there using your course specific account.\
