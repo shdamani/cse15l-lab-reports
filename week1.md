@@ -39,6 +39,14 @@ Type some commands on the the client computer and your personal device:
 - touch
 Observe what happens when you enter these commands and take notes 
 [![Screen-Shot-2023-01-15-at-1-25-44-PM.png](https://i.postimg.cc/Nj8wH2Vk/Screen-Shot-2023-01-15-at-1-25-44-PM.png)](https://postimg.cc/XrvhMqnr)
-[![Screen-Shot-2023-01-12-at-11-21-19-AM.png](https://i.postimg.cc/jqG56N8p/Screen-Shot-2023-01-12-at-11-21-19-AM.png)](https://postimg.cc/s14ssBCm)
+[![Screen-Shot-2023-01-12-at-11-21-19-AM.png](https://i.postimg.cc/jqG56N8p/Screen-Shot-2023-01-12-at-11-21-19-AM.png)](https://postimg.cc/s14ssBCm)\
 
+## Coclusion
+- **ls** lists all the files in the working directory.
+- **cd** allows you to move between directories.
+- **mkdir** creates a new directory.
+- **cd** allows you to move between directories or subdirectory.
+- **cat** allows you print the content of the file.
+- **touch** is used to modify or create timestamps/files.
+- **vi** displays changes made in the file on the screen while you edit the file.
 
