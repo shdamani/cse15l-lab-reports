@@ -50,16 +50,6 @@ class StringServer {
 **Methods called above** ->getPath(), getQuery() \
 
 # 2) Analyzing the bug
-The bug I have chosen is from the method:
-```
-  static int[] reversed(int[] arr) {
-    int[] newArray = new int[arr.length];
-    for(int i = 0; i < arr.length; i += 1) {
-      arr[i] = newArray[arr.length - i - 1];
-    }
-    return arr;
-  }
-```
 **A failure-inducing input for the buggy program**
  ```
 @Test
@@ -78,3 +68,28 @@ The bug I have chosen is from the method:
  ```
 **The symptom, as the output of running the tests**
 [![Screen-Shot-2023-01-28-at-5-58-54-PM.png](https://i.postimg.cc/ZntW2vQv/Screen-Shot-2023-01-28-at-5-58-54-PM.png)](https://postimg.cc/mzjZFkBT)
+**The bug I have chosen is from the method:**
+```
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+**The code after fixing it**
+Reversing the assignment \n
+```
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+       newArray[arr.length - i - 1]=arr[i];
+    }
+    return arr;
+  }
+```
+In the above code the elements of a the newArray were being assigned to arr in reverse order, hence arr becomes an array of all 0 values. The bug can be fixed by switching the assignment.
+
+## What did I learn from week 1 and week 2
+Making your own webpage for the first time. What are symptoms and bugs in a program. And mainly I learnt about junit testing, which is very cse 12 programming assignments.
