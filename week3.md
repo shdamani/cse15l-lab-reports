@@ -60,7 +60,7 @@ The bug I have chosen is from the method:
     return arr;
   }
 ```
-** A failure-inducing input for the buggy program,
+**A failure-inducing input for the buggy program**
  ```
 @Test
   public void testReversed() {
@@ -68,7 +68,7 @@ The bug I have chosen is from the method:
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   }
   ```
-** An input that doesn’t induce a failure
+**An input that doesn’t induce a failure**
  ```
   @Test
   public void testReversed() {
@@ -76,3 +76,5 @@ The bug I have chosen is from the method:
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   }
  ```
+**The symptom, as the output of running the tests**
+[![Screen-Shot-2023-01-28-at-5-58-54-PM.png](https://i.postimg.cc/ZntW2vQv/Screen-Shot-2023-01-28-at-5-58-54-PM.png)](https://postimg.cc/mzjZFkBT)
