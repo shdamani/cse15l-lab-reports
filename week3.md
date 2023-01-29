@@ -47,4 +47,32 @@ class StringServer {
 ```
 [![Screen-Shot-2023-01-28-at-12-10-44-PM.png](https://i.postimg.cc/3xjvTNZs/Screen-Shot-2023-01-28-at-12-10-44-PM.png)](https://postimg.cc/pmTTQ24C)
 [![Screen-Shot-2023-01-28-at-12-14-01-PM.png](https://i.postimg.cc/7LxTY4sf/Screen-Shot-2023-01-28-at-12-14-01-PM.png)](https://postimg.cc/fVrbBGhN)
-**Methods called above**
+**Methods called above** ->getPath(), getQuery() \
+
+# 2) Analyzing the bug
+The bug I have chosen is from the method:
+```
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+**A failure-inducing input for the buggy program,
+ ```
+@Test
+  public void testReversed() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+  }
+  ```
+**An input that doesn’t induce a failure
+ ```
+  @Test
+  public void testReversed() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+  }
+ ```
