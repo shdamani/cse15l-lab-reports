@@ -11,7 +11,7 @@ This command shows the line number of file with the lines matched
 3) **-An** \
 This command prints the searched line and **n** lines after the result
 [![Screen-Shot-2023-02-13-at-9-43-41-AM.png](https://i.postimg.cc/dtxbcFhr/Screen-Shot-2023-02-13-at-9-43-41-AM.png)](https://postimg.cc/gn3S3fq2)
-[![Screen-Shot-2023-02-13-at-9-44-24-AM.png](https://i.postimg.cc/gj0T1tdg/Screen-Shot-2023-02-13-at-9-44-24-AM.png)](https://postimg.cc/JD9xkqsX)\
+[![Screen-Shot-2023-02-13-at-9-44-24-AM.png](https://i.postimg.cc/gj0T1tdg/Screen-Shot-2023-02-13-at-9-44-24-AM.png)](https://postimg.cc/JD9xkqsX)
 
 4) **-l**
 This command display the file names that matches the pattern
