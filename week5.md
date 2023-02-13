@@ -1,5 +1,5 @@
 # Lab Report 3- Shlok Damani A17373189 #
-## Four command-line options to use the grep ##
+## Four command-line options to use the _grep_ ##
 1) **-c** \
 This command prints the count of the number of matches
 [![Screen-Shot-2023-02-13-at-9-34-21-AM.png](https://i.postimg.cc/SQw6Btyj/Screen-Shot-2023-02-13-at-9-34-21-AM.png)](https://postimg.cc/t7NnPknH)
