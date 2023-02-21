@@ -2,6 +2,8 @@
 ## Four command-line options to use the _grep_ ##
 1) **-c** \
 This command prints the count of the number of matches
+- In the first example the command searches for the number of times the word "India" occurs in the file IntroIndia.txt
+- In the second example the command searches for the number of times the word "Rome"(capital of italy) occurs in the file HistoryItaly.txt
 [![Screen-Shot-2023-02-13-at-9-34-21-AM.png](https://i.postimg.cc/SQw6Btyj/Screen-Shot-2023-02-13-at-9-34-21-AM.png)](https://postimg.cc/t7NnPknH)
 
 2) **-n** \
