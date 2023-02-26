@@ -58,7 +58,7 @@ In both of the screenshots, first, the handleRequest and main method is called. 
     assertArrayEquals(new int[]{3,2,1}, ArrayExamples.reversed(input1));
   }
   ```
-The problem with this method is that the new walue of input1 is all 0 {[0,0,0]} as the assignment is reversed. hence the method returns [0,0,0].
+The problem with this method is that the new value of input1 is [0,0,0]} as the assignment is reversed. hence the method returns [0,0,0] and the test fails
 **An input that doesn’t induce a failure**
  ```
   @Test
