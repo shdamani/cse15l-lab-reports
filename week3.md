@@ -47,7 +47,7 @@ class StringServer {
 ```
 [![Screen-Shot-2023-01-28-at-12-10-44-PM.png](https://i.postimg.cc/3xjvTNZs/Screen-Shot-2023-01-28-at-12-10-44-PM.png)](https://postimg.cc/pmTTQ24C)
 [![Screen-Shot-2023-01-28-at-12-14-01-PM.png](https://i.postimg.cc/7LxTY4sf/Screen-Shot-2023-01-28-at-12-14-01-PM.png)](https://postimg.cc/fVrbBGhN)
-In both of the screenshots, first, the handleRequest and main method is called. The argument to call the main method is  port 4078 and the argument to call handleRequest is the URL. Everytime a new message is added through the url address the value of **s** is appended and a new line is added.
+In both of the screenshots, first, the handleRequest and main method is called. The argument to call the main method is  port 4078 and the argument to call handleRequest is the URL. Everytime a new message is added through the url address or when the survey is run the value of **s** is appended and a new line is added. The new message is added to the original empty String s where path[1] is the new message added, and it also moves to the next line everytime.
 
 # 2) Analyzing the bug
 **A failure-inducing input for the buggy program**
@@ -58,6 +58,7 @@ In both of the screenshots, first, the handleRequest and main method is called. 
     assertArrayEquals(new int[]{3,2,1}, ArrayExamples.reversed(input1));
   }
   ```
+The problem with this method is that the new walue of input1 is all 0 {[0,0,0]} as the assignment is reversed. hence the method returns [0,0,0].
 **An input that doesn’t induce a failure**
  ```
   @Test
@@ -66,6 +67,7 @@ In both of the screenshots, first, the handleRequest and main method is called. 
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   }
  ```
+ In the above test the length of the array is zero so it would enter the for loop, hence the orignal empty int array will be returned and the test would pass
 **The symptom, as the output of running the tests**
 [![Screen-Shot-2023-01-28-at-5-58-54-PM.png](https://i.postimg.cc/ZntW2vQv/Screen-Shot-2023-01-28-at-5-58-54-PM.png)](https://postimg.cc/mzjZFkBT)
 **The bug I have chosen is from the method:**
