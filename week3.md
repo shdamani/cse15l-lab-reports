@@ -58,7 +58,7 @@ In both of the screenshots, first, the handleRequest and main method is called. 
     assertArrayEquals(new int[]{3,2,1}, ArrayExamples.reversed(input1));
   }
   ```
-The problem with this method is that the new value of input1 is [0,0,0]} as the assignment is reversed. hence the method returns [0,0,0] and the test fails
+The problem with this method is that the new value of input1 is [0,0,0]} as the assignment is reversed. hence the method returns [0,0,0] and the test fails \
 **An input that doesn’t induce a failure**
  ```
   @Test
@@ -67,7 +67,7 @@ The problem with this method is that the new value of input1 is [0,0,0]} as the 
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   }
  ```
- In the above test the length of the array is zero so it would enter the for loop, hence the orignal empty int array will be returned and the test would pass
+In the above test the length of the array is zero so it would enter the for loop, hence the orignal empty int array will be returned and the test would pass\
 **The symptom, as the output of running the tests**
 [![Screen-Shot-2023-01-28-at-5-58-54-PM.png](https://i.postimg.cc/ZntW2vQv/Screen-Shot-2023-01-28-at-5-58-54-PM.png)](https://postimg.cc/mzjZFkBT)
 **The bug I have chosen is from the method:**
