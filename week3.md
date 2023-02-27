@@ -4,7 +4,7 @@
 - Analyze a bug from the week 3 lab session and fix it
 - What I learned in the last 2 weeks :)
 # 1) Web server
-```
+~~~
 import java.io.IOException;
 import java.net.URI;
 
@@ -44,7 +44,7 @@ class StringServer {
         Server.start(port, new Handler());
     }
 }
-```
+~~~
 [![Screen-Shot-2023-01-28-at-12-10-44-PM.png](https://i.postimg.cc/3xjvTNZs/Screen-Shot-2023-01-28-at-12-10-44-PM.png)](https://postimg.cc/pmTTQ24C)
 [![Screen-Shot-2023-01-28-at-12-14-01-PM.png](https://i.postimg.cc/7LxTY4sf/Screen-Shot-2023-01-28-at-12-14-01-PM.png)](https://postimg.cc/fVrbBGhN)
 In both of the screenshots, first, the handleRequest and main method is called. The argument to call the main method is  port 4078 and the argument to call handleRequest is the URL. Everytime a new message is added through the url address or when the survey is run the value of **s** is appended and a new line is added. The new message is added to the original empty String s where path[1] is the new message added, and it also moves to the next line everytime.
