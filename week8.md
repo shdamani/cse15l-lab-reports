@@ -18,11 +18,11 @@ For this step I first copied the ssh url of the above forked repository then typ
 [![Screen-Shot-2023-02-26-at-4-07-21-PM.png](https://i.postimg.cc/BbdMkTQD/Screen-Shot-2023-02-26-at-4-07-21-PM.png)](https://postimg.cc/7Jn3TTzY)
 
 5. Running the Junit Tests \
-a)Keys pressed: <ENTER> \
+a)Keys pressed: <kbd>ENTER</kbd> \
   cd lab7 \
-b)Keys pressed: <CMD+C><CMD+V><ENTER> \
+b)Keys pressed: <kbd>CMD+C</kbd>+<kbd>CMD+V</kbd>+<kbd>ENTER</kbd> \
   The __javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java__ was copied on the clipboard and pasted on the terminal to compile the 2 files in the directory. \
-c)Keys pressed: <CMD+C><CMD+V><ENTER> \
+c)Keys pressed: <kbd>CMD+C</kbd>+<kbd>CMD+V</kbd>+<kbd>ENTER</kbd> \
   the __java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests__ was copied on the clipboard and pasted on the terminal to compile the 2 files in the directory. \
 [![Screen-Shot-2023-02-26-at-4-18-33-PM.png](https://i.postimg.cc/brNZPWdf/Screen-Shot-2023-02-26-at-4-18-33-PM.png)](https://postimg.cc/WFCN69M5)
 
