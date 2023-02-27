@@ -35,3 +35,6 @@ The code can be edited using nano. The error was found at the line 43 where afte
 Keys Pressed: UP UP UP ENTER
 The java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore command was 4 up in the history, so I accessed and ran it.
 [![Screen-Shot-2023-02-26-at-8-35-32-PM.png](https://i.postimg.cc/W4MdXmrT/Screen-Shot-2023-02-26-at-8-35-32-PM.png)](https://postimg.cc/Y4C2SWbs)
+
+8.Commiting and pushing the resulting change to my Github account
+[![Screen-Shot-2023-02-26-at-8-41-45-PM.png](https://i.postimg.cc/9Xqy79gX/Screen-Shot-2023-02-26-at-8-41-45-PM.png)](https://postimg.cc/mhBcxPGK)
