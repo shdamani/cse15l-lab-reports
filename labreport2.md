@@ -1,9 +1,9 @@
-# LAB REPORT 2 - SHLOK DAMANI A17373189
-## In the following I will
+# LAB REPORT 2 - SHLOK DAMANI A17373189 #
+## In the following I will ##
 - Write a web server called StringServer
 - Analyze a bug from the week 3 lab session and fix it
 - What I learned in the last 2 weeks :)
-# 1) Web server
+ 1) Web server
 ~~~
 import java.io.IOException;
 import java.net.URI;
