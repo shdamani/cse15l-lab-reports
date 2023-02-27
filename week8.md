@@ -7,13 +7,13 @@
 [![Screen-Shot-2023-02-26-at-3-58-48-PM.png](https://i.postimg.cc/66zg3NT0/Screen-Shot-2023-02-26-at-3-58-48-PM.png)](https://postimg.cc/23b2cMQb)
 
 3. Logging into ieng6 \
-Keys pressed: <kbd>ENTER<kbd>\
+Keys pressed: <kbd>ENTER</kbd>\
 For this step I typed **ssh cs15lwi23aex@ieng6.ucsd.edu** to log into my student specific ieng6 account. Password wasnt required for my personal device as 
 ssh keys were generated during the last lab session.
 [![Screen-Shot-2023-02-26-at-4-02-31-PM.png](https://i.postimg.cc/W3mNhnxp/Screen-Shot-2023-02-26-at-4-02-31-PM.png)](https://postimg.cc/WF3LyM2x)
 
 4. Cloning the Repository \
-Keys pressed:<kbd>CMD+C<kbd> + <kbd>CMD+V<kbd> + <kbd>ENTER<kbd>
+Keys pressed:<kbd>CMD+C</kbd> + <kbd>CMD+V</kbd> + <kbd>ENTER</kbd>
 For this step I first copied the ssh url of the above forked repository then typed **git clone** then pasted the url from the clipboard.
 [![Screen-Shot-2023-02-26-at-4-07-21-PM.png](https://i.postimg.cc/BbdMkTQD/Screen-Shot-2023-02-26-at-4-07-21-PM.png)](https://postimg.cc/7Jn3TTzY)
 
