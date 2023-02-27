@@ -7,4 +7,6 @@
 [![Screen-Shot-2023-02-26-at-3-58-48-PM.png](https://i.postimg.cc/66zg3NT0/Screen-Shot-2023-02-26-at-3-58-48-PM.png)](https://postimg.cc/23b2cMQb)
 
 3.Logging into ieng6
-For this step I typed ,,, ssh cs15lwi23aex@ieng6.ucsd.edu ,,, to log into my student specific
+For this step I typed **ssh cs15lwi23aex@ieng6.ucsd.edu** to log into my student specific ieng6 account. Password wasnt required for my personal device as 
+ssh keys were generated during the last lab session.
+[![Screen-Shot-2023-02-26-at-4-02-31-PM.png](https://i.postimg.cc/W3mNhnxp/Screen-Shot-2023-02-26-at-4-02-31-PM.png)](https://postimg.cc/WF3LyM2x)
