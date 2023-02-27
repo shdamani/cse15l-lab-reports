@@ -22,6 +22,8 @@ a)Keys pressed: <ENTER>
   cd lab7
 b)Keys pressed: <CMD+C><CMD+V><ENTER>
   The __javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java__ was copied on the clipboard and pasted on the terminal to compile the 2 files in the directory.
-
+c)Keys pressed: <CMD+C><CMD+V><ENTER>
+  the __java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests__ was copied on the clipboard and pasted on the terminal to compile the 2 files in the directory.
+[![Screen-Shot-2023-02-26-at-4-18-33-PM.png](https://i.postimg.cc/brNZPWdf/Screen-Shot-2023-02-26-at-4-18-33-PM.png)](https://postimg.cc/WFCN69M5)
 
 
