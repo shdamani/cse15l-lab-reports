@@ -27,6 +27,6 @@ c)Keys pressed: <CMD+C><CMD+V><ENTER> \
 [![Screen-Shot-2023-02-26-at-4-18-33-PM.png](https://i.postimg.cc/brNZPWdf/Screen-Shot-2023-02-26-at-4-18-33-PM.png)](https://postimg.cc/WFCN69M5)
 
 6.Edit the code file to fix the failing test \
-Keys Pressed: <ENTER> <SCROLLING Till lne 43> <r><r><r><r><r><r><r><r><r><r><r><r><r> <delete><2><CTRL+O><CTRL+X><N> \
+Keys Pressed: <ENTER> <SCROLLING Till lne 43><backspace><2><CTRL+O><CTRL+X><n> \
 The code can be edited using nano. The error was found at the line 43 where after pressing the right 13 times index1 was changed to index2 and the changes were saved and I exited from nano.
 [![Screen-Shot-2023-02-26-at-4-29-26-PM.png](https://i.postimg.cc/Hx7gytK8/Screen-Shot-2023-02-26-at-4-29-26-PM.png)](https://postimg.cc/8JD98LTT)
