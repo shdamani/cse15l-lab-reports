@@ -7,15 +7,21 @@
 [![Screen-Shot-2023-02-26-at-3-58-48-PM.png](https://i.postimg.cc/66zg3NT0/Screen-Shot-2023-02-26-at-3-58-48-PM.png)](https://postimg.cc/23b2cMQb)
 
 3. Logging into ieng6
-<ENTER>
+Keys pressed:<ENTER>
 For this step I typed **ssh cs15lwi23aex@ieng6.ucsd.edu** to log into my student specific ieng6 account. Password wasnt required for my personal device as 
 ssh keys were generated during the last lab session.
 [![Screen-Shot-2023-02-26-at-4-02-31-PM.png](https://i.postimg.cc/W3mNhnxp/Screen-Shot-2023-02-26-at-4-02-31-PM.png)](https://postimg.cc/WF3LyM2x)
 
-4. Cloning the Repository \
-<CMD+C><CMD+V><ENTER>
+4. Cloning the Repository
+Keys pressed:<CMD+C><CMD+V><ENTER>
 For this step I first copied the ssh url of the above forked repository then typed **git clone** then pasted the url from the clipboard.
 [![Screen-Shot-2023-02-26-at-4-07-21-PM.png](https://i.postimg.cc/BbdMkTQD/Screen-Shot-2023-02-26-at-4-07-21-PM.png)](https://postimg.cc/7Jn3TTzY)
 
-5.
+5. Running the Junit Tests
+a)Keys pressed: <ENTER>
+  cd lab7
+b)Keys pressed: <CMD+C><CMD+V><ENTER>
+  The __javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java__ was copied on the clipboard and pasted on the terminal to compile the 2 files in the directory.
+
+
 
