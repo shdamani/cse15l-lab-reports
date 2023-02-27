@@ -3,7 +3,7 @@
 - Write a web server called StringServer
 - Analyze a bug from the week 3 lab session and fix it
 - What I learned in the last 2 weeks :)
- 1) Web server
+## 1) Web server ##
 ~~~
 import java.io.IOException;
 import java.net.URI;
@@ -45,11 +45,14 @@ class StringServer {
     }
 }
 ~~~
+\
 [![Screen-Shot-2023-01-28-at-12-10-44-PM.png](https://i.postimg.cc/3xjvTNZs/Screen-Shot-2023-01-28-at-12-10-44-PM.png)](https://postimg.cc/pmTTQ24C)
+\
 [![Screen-Shot-2023-01-28-at-12-14-01-PM.png](https://i.postimg.cc/7LxTY4sf/Screen-Shot-2023-01-28-at-12-14-01-PM.png)](https://postimg.cc/fVrbBGhN)
+\
 In both of the screenshots, first, the handleRequest and main method is called. The argument to call the main method is  port 4078 and the argument to call handleRequest is the URL. Everytime a new message is added through the url address or when the survey is run the value of **s** is appended and a new line is added. The new message is added to the original empty String s where path[1] is the new message added, and it also moves to the next line everytime.
 
-# 2) Analyzing the bug
+## 2) Analyzing the bug ##
 **A failure-inducing input for the buggy program**
  ```
 @Test
@@ -93,5 +96,5 @@ Reversing the assignment \n
 ```
 In the above code the elements of a the newArray were being assigned to arr in reverse order, hence arr becomes an array of all 0 values. The bug can be fixed by switching the assignment.
 
-## What did I learn from week 1 and week 2
+## What did I learn from week 1 and week 2 ##
 Making your own webpage for the first time. What are symptoms and bugs in a program. And mainly I learnt about junit testing, which is very cse 12 programming assignments.
