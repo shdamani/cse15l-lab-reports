@@ -33,4 +33,5 @@ This command counts the number of words in the matching files
 The above command seraches and prints the number of words in the file Athens-Intro.txt in the written_2 sub-directory\
 **Example 2:**
 [![Screen-Shot-2023-03-12-at-4-34-29-PM.png](https://i.postimg.cc/KjCC4VN2/Screen-Shot-2023-03-12-at-4-34-29-PM.png)](https://postimg.cc/5QqsRsT7)
-This command prints the number of words in every text file in the non-fiction sub-directory in written_2. It also prints the total words in text files of non-fiction.
+This command prints the number of words in every text file in the non-fiction sub-directory in written_2. It also prints the total words in text files of non-fiction.\
+[Source Used](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
