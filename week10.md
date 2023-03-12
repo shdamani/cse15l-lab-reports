@@ -1,6 +1,7 @@
 # Lab Report 5- find command
 For this lab report I am going to explore a different command from the lab report 3 write up. Last time I had explored several ways to use **grep**.\
-This time I am going to explore the **find** command
+This time I am going to explore the **find** command.\
+**The “find” command is used to find, filter, or search files and folders in your system according to user-specified conditions and perform several operations on them.**
 ## 1) -name 
 This command searches a file with specific name.\
 **Example 1:**
