@@ -17,7 +17,7 @@ The above command finds the text file WhereToIndia int the travel_guides sub-dir
 **Example 2:**
 [![Screen-Shot-2023-03-12-at-4-07-56-PM.png](https://i.postimg.cc/8CgLpHgr/Screen-Shot-2023-03-12-at-4-07-56-PM.png)](https://postimg.cc/FYGYG0R9)
 The above command finds the text file California-WhatToDO int the written_2 directory and then prompts if you want to permanently delete it.
-## 3)  -type f -name "*.txt" -exec grep 'Any text'  {} \;
+## 3)  -exec grep 'Any text'  {} \;
 This command searches for the text entered and prints the line associated with the text  and ‘-type f’ specifies the input type is a file. \
 **Example 1:**
 [![Screen-Shot-2023-03-12-at-4-13-07-PM.png](https://i.postimg.cc/qMfKXwgD/Screen-Shot-2023-03-12-at-4-13-07-PM.png)](https://postimg.cc/qgLgp8s2)
