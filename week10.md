@@ -18,6 +18,18 @@ The above command finds the text file WhereToIndia int the travel_guides sub-dir
 [![Screen-Shot-2023-03-12-at-4-07-56-PM.png](https://i.postimg.cc/8CgLpHgr/Screen-Shot-2023-03-12-at-4-07-56-PM.png)](https://postimg.cc/FYGYG0R9)
 The above command finds the text file California-WhatToDO int the written_2 directory and then prompts if you want to permanently delete it.\
 ## 3)  -type f -name "*.txt" -exec grep 'Any text'  {} \;
-
+This command searches for the text entered and prints the line associated with the text  and ‘-type f’ specifies the input type is a file. \
 **Example 1:**
 [![Screen-Shot-2023-03-12-at-4-13-07-PM.png](https://i.postimg.cc/qMfKXwgD/Screen-Shot-2023-03-12-at-4-13-07-PM.png)](https://postimg.cc/qgLgp8s2)\
+The above command searches for **Mumbai** in the written_2 sub-directory and prints  print lines which have Mumbai in it.\
+**Example 2:**
+[![Screen-Shot-2023-03-12-at-4-13-49-PM.png](https://i.postimg.cc/kMWG9mXw/Screen-Shot-2023-03-12-at-4-13-49-PM.png)](https://postimg.cc/V5LmB2tb)
+he above command searches for **UCSD** in the written_2 sub-directory, but no lines are found so it prints nothing. Then it searches for **La Jolla** and prints the lines which have La Jolla in it.
+## 4) -exec wc:
+This command counts the number of words in the matching files
+**Example 1:**
+[![Screen-Shot-2023-03-12-at-4-32-12-PM.png](https://i.postimg.cc/mk6Bj8yX/Screen-Shot-2023-03-12-at-4-32-12-PM.png)](https://postimg.cc/5QvhN5GL)
+The above command seraches and prints the number of words in the file Athens-Intro.txt in the written_2 sub-directory\
+**Example 2:**
+[![Screen-Shot-2023-03-12-at-4-34-29-PM.png](https://i.postimg.cc/KjCC4VN2/Screen-Shot-2023-03-12-at-4-34-29-PM.png)](https://postimg.cc/5QqsRsT7)
+This command prints the number of words in every text file in the non-fiction sub-directory in written_2. It also prints the total words in text files of non-fiction.
