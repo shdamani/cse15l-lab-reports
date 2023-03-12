@@ -1,6 +1,6 @@
-# Lab Report 5
+# Lab Report 5- find command
 For this lab report I am going to explore a different command from the lab report 3 write up. Last time I had explored several ways to use **grep**.\
-This time I am going to explore the find command
+This time I am going to explore the **find** command
 ## 1) -name 
 This command searches a file with specific name.\
 **Example 1:**
@@ -16,15 +16,15 @@ This command finds and deletes a file with confirmation.\
 The above command finds the text file WhereToIndia int the travel_guides sub-directory and then prompts if you want to permanently delete it.\
 **Example 2:**
 [![Screen-Shot-2023-03-12-at-4-07-56-PM.png](https://i.postimg.cc/8CgLpHgr/Screen-Shot-2023-03-12-at-4-07-56-PM.png)](https://postimg.cc/FYGYG0R9)
-The above command finds the text file California-WhatToDO int the written_2 directory and then prompts if you want to permanently delete it.\
+The above command finds the text file California-WhatToDO int the written_2 directory and then prompts if you want to permanently delete it.
 ## 3)  -type f -name "*.txt" -exec grep 'Any text'  {} \;
 This command searches for the text entered and prints the line associated with the text  and ‘-type f’ specifies the input type is a file. \
 **Example 1:**
-[![Screen-Shot-2023-03-12-at-4-13-07-PM.png](https://i.postimg.cc/qMfKXwgD/Screen-Shot-2023-03-12-at-4-13-07-PM.png)](https://postimg.cc/qgLgp8s2)\
+[![Screen-Shot-2023-03-12-at-4-13-07-PM.png](https://i.postimg.cc/qMfKXwgD/Screen-Shot-2023-03-12-at-4-13-07-PM.png)](https://postimg.cc/qgLgp8s2)
 The above command searches for **Mumbai** in the written_2 sub-directory and prints  print lines which have Mumbai in it.\
 **Example 2:**
 [![Screen-Shot-2023-03-12-at-4-13-49-PM.png](https://i.postimg.cc/kMWG9mXw/Screen-Shot-2023-03-12-at-4-13-49-PM.png)](https://postimg.cc/V5LmB2tb)
-he above command searches for **UCSD** in the written_2 sub-directory, but no lines are found so it prints nothing. Then it searches for **La Jolla** and prints the lines which have La Jolla in it.
+The above command searches for **UCSD** in the written_2 sub-directory, but no lines are found so it prints nothing. Then it searches for **La Jolla** and prints the lines which have La Jolla in it.
 ## 4) -exec wc:
 This command counts the number of words in the matching files
 **Example 1:**
